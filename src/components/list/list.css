@@ -1,0 +1,11 @@
+.list{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  ::-webkit-scrollbar {
+    width: 0px;
+    track {
+        background: transparent;
+      }
+  }
